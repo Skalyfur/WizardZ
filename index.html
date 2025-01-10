@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-------------- CSS --------------->
+    <link rel="stylesheet" href="css/estilos.css">
+    <!-- ----------- Font Awesome ----->
+    <script src="https://kit.fontawesome.com/8786321744.js" crossorigin="anonymous"></script>
+    <!--  --------TypeIt.js---------->
+    <script src="https://cdn.jsdelivr.net/npm/typeit@8.7.1/dist/index.umd.min.js"></script>
+    <!--------- scroll reveral --------->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    
+    <title>WizardZ</title>
+</head>
+<body>
+    
+
+    <!-- Header contenedor -->
+    <header id="main-header">
+        <div class="header-contenedor">
+            <!-- Logo -->
+            <div id="logo" class="logo">
+                <a href="#">Wizard<span class="letra_z">Z</span></a>
+            </div>
+    
+            <!-- Botón para menú responsive -->
+            <button id="menu-toggle" class="menu" onclick="this.classList.toggle('opened'); toggleMenu()" aria-label="Main Menu">
+                <svg width="70" height="70" viewBox="0 0 100 100">
+                    <path class="line line1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+                    <path class="line line2" d="M 20,50 H 80" />
+                    <path class="line line3" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+                </svg>
+            </button>
+    
+            <!-- Menú de navegación -->
+            <nav id="main-nav" class="nav">
+                <ul id="nav-list">
+                    <li id="nav-about"><a href="#about">About Us</a></li>
+                    <li id="nav-services"><a href="#services">Services</a></li>
+                    <li id="nav-use-cases"><a href="#use-cases">Use Cases</a></li>
+                    <li id="nav-pricing"><a href="#pricing">Pricing</a></li>
+                    <li id="nav-blog"><a href="#blog">Blog</a></li>
+                    <li id="nav-quote">
+                        <button id="request-quote-btn">Request a quote</button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    
+    <!-----===------ Portada contenedor -----===------>
+    <div class="contenedor-portada">
+        <div class="informacion-portada">
+            <div class="titulo-portada">
+                <h2 id="hero-text" class="slide-in">Navigating the digital landscape for success</h2>
+            </div>
+    
+            <div class="descripcion-portada reveal">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta perferendis dolores amet, enim delectus accusamus nulla minus ipsum pariatur eligendi ratione quas maiores officia? Et accusamus magnam nam commodi officiis..</p>
+            </div>
+    
+            <div class="boton-portada reveal">
+                <button>Agendar una Consulta</button>
+            </div>
+        </div>
+    
+        <div class="imagen-portada reveal">
+            <img src="multimedia/img/imagen_portada.jpeg" alt="Ilustración de Marketing" />
+        </div>
+    </div>
+    
+
+
+    <!-- =============marcas============= -->
+    <div class="contenedor-marcas">
+        <div class="marcas">
+          <img src="multimedia/logos_marcas/amazon.svg" alt="amazon" />
+          <img src="multimedia/logos_marcas/dribbble.svg" alt="dribbble" />
+          <img src="multimedia/logos_marcas/hubspot.svg" alt="hubspot" />
+          <img src="multimedia/logos_marcas/netflix.svg" alt="netflix" />
+          <img src="multimedia/logos_marcas/notion.svg" alt="notion" />
+          <img src="multimedia/logos_marcas/zoom.svg" alt="zoom" />
+          <!-- Sección duplicada -->
+          <img src="multimedia/logos_marcas/amazon.svg" alt="amazon" />
+          <img src="multimedia/logos_marcas/dribbble.svg" alt="dribbble" />
+          <img src="multimedia/logos_marcas/hubspot.svg" alt="hubspot" />
+          <img src="multimedia/logos_marcas/netflix.svg" alt="netflix" />
+          <img src="multimedia/logos_marcas/notion.svg" alt="notion" />
+          <img src="multimedia/logos_marcas/zoom.svg" alt="zoom" />
+        </div>
+      </div>
+      
+
+    <!-- ================servicios================ -->
+     <div class="servicios_contenedor">
+
+        <div class="servicios_texto_contenedor">
+            <div class="servicios_titulo">
+                <h1>Services</h1>
+            </div>
+    
+            <div class="servicios_descripcion">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate soluta in quidem iste ipsa culpa eaque, cumque ad nobis nostrum consectetur aperiam iure magnam officiis optio iusto a nesciunt sequi.?</p>
+            </div>
+        </div>
+
+
+        <div class="servicios_contenedor_tarjetas">
+          
+                <div class="tarjeta_1">
+                    <div class="tarjeta_titulo">
+                        <h1>Search Engine Optimization</h1>
+
+                        <div class="saber_mas">
+                            <a href="#"><i class="fa-solid fa-arrow-right-long">   Learn More</i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="tarjeta_imagen">
+                        <img src="multimedia/servicios_tarjetas/optimization.png" alt="">
+                    </div>
+
+                    
+                    
+                </div>
+           
+    
+           
+                <div class="tarjeta_2">
+                    <div class="tarjeta_titulo">
+                        <h1>Pay Per Click Advertensing</h1>
+
+                        <div class="saber_mas">
+                            <a href="#"><i class="fa-solid fa-arrow-right-long">   Learn More</i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="tarjeta_imagen">
+                        <img src="multimedia/servicios_tarjetas/click.svg" alt="" >
+                    </div>
+
+                    
+                </div>
+            
+    
+           
+                <div class="tarjeta_2">
+                    <div class="tarjeta_titulo">
+                        <h1>Social Media Marketing</h1>
+
+                        <div class="saber_mas">
+                            <a href="#"><i class="fa-solid fa-arrow-right-long">   Learn More</i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="tarjeta_imagen">
+                        <img src="multimedia/servicios_tarjetas/social_media.png" alt="">
+                    </div>
+
+                    
+
+                </div>
+           
+    
+           
+                <div class="tarjeta_1">
+                    <div class="tarjeta_titulo">
+                        <h1>E-mail for Marketing</h1>
+
+                        <div class="saber_mas">
+                            <a href="#"><i class="fa-solid fa-arrow-right-long">   Learn More</i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="tarjeta_imagen">
+                        <img src="multimedia/servicios_tarjetas/email.png" alt="">
+                    </div>
+
+                    
+                </div>
+           
+            
+        </div>
+        
+     </div>
+
+
+     <!-- ===============Contactos=============== -->
+
+     <div class="contactos_contenedor">
+        <div class="contactos">
+
+            <div class="contacto_info">
+                <h2>let's make things happen</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod sequi animi consequatur illum voluptate assumenda necessitatibus est, vitae fugit sit magni veritatis impedit quia aliquid, dolores iste perspiciatis vel eum?</p>
+                <button>Get Your Free Proposal</button>
+            </div>
+
+
+            <div class="contacto_img">
+                <img src="multimedia/img/Contatos.png" alt="">
+            </div>
+
+        </div>
+     </div>
+
+
+     <!-- ============Caso de estudio============ -->
+     <div class="caso_de_estudio_contenedor">
+        <div class="caso_de_estudio">
+            <div class="caso_de_estudio_info">
+                <h1>Case Study</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur magnam tempore omnis natus.</p>
+            </div>
+        </div>
+     </div>
+ 
+     
+     <!-- ============pie de pagina============ -->
+
+     <footer>
+        <div class="footer_contenedor">
+            <div class="footer_info">
+
+               <div class="columna">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam consequatur, unde assumenda autem eaque minima aliquid commodi explicabo et corrupti!</p>
+                <a href="#"><i class="fa-solid fa-arrow-right-long"></i>   Learn More</a>
+
+               </div>
+
+               <div class="columna">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam consequatur, unde assumenda autem eaque minima aliquid commodi explicabo et corrupti!</p>
+                <a href="#"><i class="fa-solid fa-arrow-right-long"></i>   Learn More</a>
+
+               </div>
+
+               <div class="columna">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam consequatur, unde assumenda autem eaque minima aliquid commodi explicabo et corrupti!</p>
+                <a href="#"><i class="fa-solid fa-arrow-right-long"></i>   Learn More</a>
+
+               </div>
+
+            </div>
+        </div>
+     </footer>
+    
+
+
+     <!-- JS -->
+     <script src="js/script.js"></script>
+
+</body>
+</html>
